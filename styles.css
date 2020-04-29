@@ -64,7 +64,11 @@
    
   
   }
-  
+  .dl{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
   p {
   text-align: justify;
     
@@ -105,11 +109,7 @@
     padding: 20px;
   }
  
-  .dl{
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
+ 
  
   h3 {
   font-size: 15px;
