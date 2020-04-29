@@ -64,6 +64,12 @@
    
   
   }
+  p{
+   
+    text-align: justify;
+
+    
+  }
   .dl{
     font-size: 14px;
     font-weight: bold;
@@ -72,12 +78,7 @@
     
   }
  
-  p{
-   
-    text-align: justify;
-
-    
-  }
+ 
   h1 {
   text-align: center;
     
