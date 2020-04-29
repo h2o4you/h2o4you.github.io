@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+
+html {
+  font-family: "Arial", sans-serif;
+}
+
+.header {
+  background-color:black ;
+  color: white;
+  padding: 5px;
+  
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  text-decoration: none
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #0bcefe;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #0bcefe;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  text-transform: uppercase;
+ 
+
+}
+
+p {
+text-align: justify;
+  
+}
+
+h1 {
+text-align: center;
+  
+}
+
+a {
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+  
+}
+
+#logo{
+  width: 10em;
+  padding-left: 1em;
+}
+
+h2 {
+font-size: 18px;
+text-align: left;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.col-13 {width: 25%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  
+  <img id="logo" src="lol.jpg">
+</div>
+
+<div class="row">
+  <div class="col-3 menu">
+    <ul>
+    
+    <li><a href="#lol">Dienstleistungen</a></li>
+    <li><a href="#lol">Shop</a></li>
+    <li><a href="#lol">Filter</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
+    <li><a href="#support">Support</a></li>
+    </ul>
+  </div>
+
+  <div class="col-6">
+  
+<h1> SHOP</h1>
+
+  
+    </div>
+
+  <div class="col-3 right">
+    <div class="aside">
+      <h2>Was?</h2>
+      <p>Filter</p>
+      <h2>Wo?</h2>
+      <p>Schweiz</p>
+      <h2>Warum?</h2>
+      <p>Wasserfilter gegen Schmutzpartikel</p>
+    
+      
+      <h2 id="kontakt">Kontakt</h2>
+ 
+      <p>Telefon 0760000000 </p>
+      <p> kontakt@h2o4you.ch</p>
+
+      <h2 id="support">Support</h2>
+      <p> support@h2o4you.ch</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="footer">
+  Copyright 2020 h2o4you | All Rights Reserved | Powered by blcklstd sqd.
+
+</div>
+
+</body>
+</html>
