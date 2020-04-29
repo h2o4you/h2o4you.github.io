@@ -83,7 +83,7 @@
   }
   
   #karte{
-    width: 100%;
+    width: 60%;
     
   }
   #logo{
@@ -112,10 +112,7 @@
   color: white ;
   }
 
-.responsive {
-  max-width: 100%;
-  height: auto;
-  }
+
   #mail {
   text-transform: lowercase;
   }
