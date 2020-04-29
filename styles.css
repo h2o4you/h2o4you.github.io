@@ -105,7 +105,17 @@
     padding: 20px;
   }
  
-  
+  .dl{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .lol {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 22px;
+  }
   h3 {
   font-size: 15px;
   text-align: left;
