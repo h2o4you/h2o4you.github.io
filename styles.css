@@ -67,11 +67,17 @@
   .dl{
     font-size: 14px;
     font-weight: bold;
+    text-align: center;
 
     
   }
  
-  
+  p{
+   
+    text-align: justify;
+
+    
+  }
   h1 {
   text-align: center;
     
